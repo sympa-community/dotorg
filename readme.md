@@ -1,12 +1,5 @@
 # new sympa.org
 
-this is the base for the new sympa.org. decision made:
-
-    sympa.org > dokuwiki.
-    sympa-community.github.io > documentation.
-    dotorg > sympa-community.github.io
-         http://sympa-community.github.io should preview sympa.org
-
 ## sitemap
 
 * Todo:@dverdin adds here the notes from the hackathon
@@ -31,6 +24,3 @@ this is the base for the new sympa.org. decision made:
     * run a hackathon, a sympa user group, ...
     * sympa conference ...
 
-## todo
-
-* remove project repo
