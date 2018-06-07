@@ -214,23 +214,6 @@ All website-related data (both from dotorg and sympa-community.github.io reposit
 
 The good point of this approach is to make web content independent from hosting. If the current hosting structure (RENATER) became deficient, community would still retain the data and would easily move to another hosting service.
 
-**NB** a few days after the hackathon, Soji raised [questions](https://listes.renater.fr/sympa/arc/sympa-developpers/2018-05/msg00042.html) about that website:
-- Who is the person in charge on this issue?
-- Who maintains (watch) the service running?
-  If RENATER techies help, how can we contact them in urgent cases?
-  Otherwise, who mainly maintains them?
-- How can we do with crash (including crash of VM host)?
-- Who deals with queries from users about services? (e.g. I can't see Sympa site! Is the server running?)
-- What services may be run on the server?
-- Are we allowed super-user access to the server (Otherwise, what interface is provided to manage server)? [I want this]
-- How long the VM will be maintained? (e.g. until person in charge leaves community)
-- What kind of regulations by RENATER are there to use their VM?
-- When the older servers (www, demo, pootle, ...) will be shut down?
-  How about translation process (e.g. HTTP redirection).
-- etc.
-
-Those questions should be addressed, but we should remember, when discussing about them, that there are other Sympa tools that have the same problem: sympa-* ML for example.
-
 Any concern related to Sympa web site - and tools - hosting should be discussed on a Github issue in the [web site project](https://github.com/sympa-community/dotorg/issues).
 
 ### Decision making
