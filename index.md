@@ -19,8 +19,17 @@
 
 ## Get support
 
-    * community itself in best effort
-    * commercial support available
+    community always try to help and mentor
+
+    commercial support can be provided by very active contributors
+
+    Germany [https://www.linuxia.de/](linuxia)
+    France  [http://www.renater.fr](Renater)
+
+    hosting services can be provided for NGO
+
+    ARN [https://www.arn-fai.net/]
+    Assolab ?
 
 ## User documentation
 ## Contribute
