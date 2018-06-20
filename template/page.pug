@@ -1,0 +1,60 @@
+//- vim: et ts=4 sts=4
+doctype html
+<html$if(lang)$ lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
+
+head
+
+    title $if(title-prefix)$$title-prefix$ – $endif$$pagetitle$
+    meta(charset="utf-8")
+    meta(name="generator" content="pandoc")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes")
+
+    |$for(author-meta)$
+    meta(name="author" content="$author-meta$")
+    |$endfor$
+
+    |$if(date-meta)$
+    meta(name="dcterms.date" content="$date-meta$")
+    |$endif$
+
+    |$if(keywords)$
+    meta(name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$")
+    |$endif$
+
+    style(type="text/css").
+        code{white-space: pre;}
+        $if(quotes)$q { quotes: "“" "”" "‘" "’"; }$endif$
+        $if(highlighting-css)$$highlighting-css$$endif$
+
+    | $for(css)$
+    link(rel="stylesheet" href="$css$")
+    | $endfor$
+
+    | $if(math)$$math$$endif$
+    | $for(header-includes)$$header-includes$$endfor$
+
+body
+
+    | $for(include-before)$$include-before$$endfor$
+
+    | $if(title)$
+    header
+        h1.title $title
+        | $if(subtitle)$
+        p.subtitle $subtitle$
+        | $endif$
+        | $for(author)$
+        p.author $author$
+        | $endfor$
+        | $if(date)$
+        p.date $date$
+        | $endif$
+    | $endif$
+
+    | $if(toc)$<nav id="$idprefix$TOC">$toc$</nav>$endif$
+
+    | $body$
+
+    | $for(include-after)$$include-after$$endfor$
+
+</html>
