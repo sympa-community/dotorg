@@ -39,16 +39,21 @@ body
 
     | $if(title)$
     header
-        h1.title $title
+
+        h1.title $title$
+
         | $if(subtitle)$
         p.subtitle $subtitle$
         | $endif$
+
         | $for(author)$
         p.author $author$
         | $endfor$
+
         | $if(date)$
         p.date $date$
         | $endif$
+
     | $endif$
 
     | $if(toc)$<nav id="$idprefix$TOC">$toc$</nav>$endif$
