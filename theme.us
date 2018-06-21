@@ -1,0 +1,8 @@
+body
+    background-image url(s.svg)
+
+code
+    white-space pre
+
+q
+    quotes "“" "”" "‘" "’"
